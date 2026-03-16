@@ -11,7 +11,6 @@ string json = @"{""key1"":""value1"",""key2"":""value2""}";
 
 // a curly bracket could just be a simple collection matching keys to values, both strings 
 IDictionary<string, string> values = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
-
 foreach (string k in values.Keys)
     Console.WriteLine($"{k}: {values[k]}");
 
