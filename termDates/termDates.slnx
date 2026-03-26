@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="halfTermDates/halfTermDates.csproj" />
+  <Project Path="termDateClass/termDateClass.csproj" />
+</Solution>
