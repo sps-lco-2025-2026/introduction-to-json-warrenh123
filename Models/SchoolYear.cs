@@ -3,11 +3,8 @@ using introduction_to_json_warrenh123.Models;
 
 namespace introduction_to_json_warrenh123.Models
 {
-    public class SchoolYear
+    public class SchoolCalendar
     {
-        public string Name{ get; private set; }
-        public Dictionary<string, SchoolTerm> Terms{ get; private set;} = new Dictionary<string, SchoolTerm>();
-
-
+        public Dictionary<string, Dictionary<string, SchoolTerm>> academic_years { get; set; } = new Dictionary<string, Dictionary<string, SchoolTerm>>();
     }
 }
