@@ -46,7 +46,6 @@ namespace introduction_to_json_warrenh123
                         if(today >= term.Value.half_term_start && today <= term.Value.half_term_end) //in half term holiday
                         {
                             int days = (term.Value.half_term_end - today).Days;
-                            string termName = term.Key.Replace("_", " ");
                             if(days == 1)
                             {
                                 return $"You are in half term break - {days} day until end of holiday.";
