@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\warre\\OneDrive\\Desktop\\Coding\\Csharp-work\\School work\\Class work\\introduction-to-json-warrenh123\\introduction-to-json-warrenh123.csproj",
+      "projectUniqueName": "C:\\Users\\warre\\OneDrive\\Desktop\\Coding\\Csharp\\School work\\Class work\\introduction-to-json-warrenh123\\introduction-to-json-warrenh123.csproj",
       "projectName": "introduction-to-json-warrenh123",
-      "projectPath": "C:\\Users\\warre\\OneDrive\\Desktop\\Coding\\Csharp-work\\School work\\Class work\\introduction-to-json-warrenh123\\introduction-to-json-warrenh123.csproj",
+      "projectPath": "C:\\Users\\warre\\OneDrive\\Desktop\\Coding\\Csharp\\School work\\Class work\\introduction-to-json-warrenh123\\introduction-to-json-warrenh123.csproj",
       "packagesPath": "C:\\Users\\warre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\warre\\OneDrive\\Desktop\\Coding\\Csharp-work\\School work\\Class work\\introduction-to-json-warrenh123\\obj\\",
+      "outputPath": "C:\\Users\\warre\\OneDrive\\Desktop\\Coding\\Csharp\\School work\\Class work\\introduction-to-json-warrenh123\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\warre\\AppData\\Roaming\\NuGet\\NuGet.Config",

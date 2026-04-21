@@ -11,7 +11,6 @@ namespace introduction_to_json_warrenh123
     {
         public Dictionary<string, Dictionary<string, SchoolTerm>> AcademicYears{ get; private set; } = new Dictionary<string, Dictionary<string, SchoolTerm>>();
 
-
         public void LoadData(string filePath)
         {
             string jsonString = File.ReadAllText(filePath);

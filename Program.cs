@@ -2,6 +2,7 @@
 
 CalendarService service = new CalendarService();
 
-service.LoadData(@"C:\Users\warre\OneDrive\Desktop\Coding\Csharp-work\School work\Class work\introduction-to-json-warrenh123\Data\SchoolDates.json");
+string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "SchoolDates.json");
+service.LoadData(path);
 
 Console.WriteLine(service.CountDown());
