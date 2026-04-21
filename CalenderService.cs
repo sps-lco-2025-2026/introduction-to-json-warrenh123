@@ -72,5 +72,60 @@ namespace introduction_to_json_warrenh123
             }
             return "Not in a term or in a holiday";
         }
+    
+    public string KeyDateSummary()
+        {
+            DateTime today = DateTime.Today;
+            var upcoming = new List<(int days, string name, DateTime start, DateTime end)>(); // list of tuples
+
+            foreach (KeyValuePair<string, Dictionary<string, SchoolTerm>> year in AcademicYears)
+            {
+                foreach (KeyValuePair<string, SchoolTerm> term in year.Value)
+                {
+                    string termName = term.Key.Replace("_", " ");
+                    SchoolTerm t = term.Value;
+
+                    // half-term break
+                    if (t.half_term_end >= today)
+                        upcoming.Add(((t.half_term_start - today).Days, $"{termName} Half-Term", t.half_term_start, t.half_term_end));
+
+                    // end of term
+                    if (t.End >= today)
+                        upcoming.Add(((t.End - today).Days, $"End of {termName}", t.End, t.End));
+
+                    // start of term
+                    if (t.Start >= today)
+                        upcoming.Add(((t.Start - today).Days, $"Start of {termName}", t.Start, t.Start));
+                }
+            }
+            for (int i = 0; i < upcoming.Count - 1; i++) //bubble sort for date
+            {
+                for (int j = 0; j < upcoming.Count - 1 - i; j++)
+                {
+                    if (upcoming[j].days > upcoming[j + 1].days)
+                    {
+                        var temp = upcoming[j];
+                        upcoming[j] = upcoming[j + 1];
+                        upcoming[j + 1] = temp;
+                    }
+                }
+            }
+
+            string result = "  -------------- Key Date Summary ---------------\n";
+            foreach (var (days, name, start, end) in upcoming)
+            {
+                string range;
+                if (start == end)
+                {
+                    range = start.ToString("d MMM yyyy");
+                }
+                else
+                {
+                    range = start.ToString("d MMM") + " - " + end.ToString("d MMM yyyy");
+                }
+                result += $"  {days,4}d   {name,-35} {range}\n";
+            }
+            return result;
+        }
     }
 }

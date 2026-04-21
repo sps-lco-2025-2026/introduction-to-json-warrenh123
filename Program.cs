@@ -6,3 +6,5 @@ string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "Schoo
 service.LoadData(path);
 
 Console.WriteLine(service.CountDown());
+Console.WriteLine();
+Console.WriteLine(service.KeyDateSummary());
