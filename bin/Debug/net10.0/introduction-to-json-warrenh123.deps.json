@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "introduction-to-json-warrenh123/1.0.0": {
+        "runtime": {
+          "introduction-to-json-warrenh123.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "introduction-to-json-warrenh123/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

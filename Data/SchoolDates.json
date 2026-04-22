@@ -1,0 +1,69 @@
+{
+  "school": "St Paul's School (London)",
+  "academic_years": {
+    "2025-26": {
+      "easter_holiday": {
+        "start": "2026-03-28",
+        "end": "2026-04-20",
+        "half_term_start": "2026-03-28",
+        "half_term_end": "2026-03-28"
+      },
+      "spring_term": {
+        "start": "2026-01-07",
+        "end": "2026-03-27",
+        "half_term_start": "2026-02-16",
+        "half_term_end": "2026-02-20"
+      },
+      "summer_term": {
+        "start": "2026-04-21",
+        "end": "2026-07-03",
+        "half_term_start": "2026-05-25",
+        "half_term_end": "2026-05-29"
+      },
+      "summer_holiday": {
+        "start": "2026-07-04",
+        "end": "2026-09-03",
+        "half_term_start": "2026-07-04",
+        "half_term_end": "2026-07-04"
+      }
+    },
+    "2026-27": {
+      "autumn_term": {
+        "start": "2026-09-04",
+        "end": "2026-12-17",
+        "half_term_start": "2026-10-19",
+        "half_term_end": "2026-10-30"
+      },
+      "christmas_holiday": {
+        "start": "2026-12-18",
+        "end": "2027-01-06",
+        "half_term_start": "2026-12-18",
+        "half_term_end": "2026-12-18"
+      },
+      "spring_term": {
+        "start": "2027-01-07",
+        "end": "2027-03-24",
+        "half_term_start": "2027-02-15",
+        "half_term_end": "2027-02-19"
+      },
+      "easter_holiday": {
+        "start": "2027-03-25",
+        "end": "2027-04-19",
+        "half_term_start": "2027-03-25",
+        "half_term_end": "2027-03-25"
+      },
+      "summer_term": {
+        "start": "2027-04-20",
+        "end": "2027-07-07",
+        "half_term_start": "2027-05-31",
+        "half_term_end": "2027-06-04"
+      },
+      "summer_holiday": {
+        "start": "2027-07-08",
+        "end": "2027-09-02",
+        "half_term_start": "2027-07-08",
+        "half_term_end": "2027-07-08"
+      }
+    }
+  }
+}
